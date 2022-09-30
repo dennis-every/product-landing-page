@@ -11,35 +11,31 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script> -->
     <title>Product Landing Page</title>
   </head>
   <body>
     <header id="header">
       <nav id="" nav-bar>
         <div class="row">
-          <div class="col"><div id="header-img"></div></div>
           <div class="col">
-            <a class="nav-link" href="#features" target="_blank">Features</a>
-            <a class="nav-link" href="#howitworks" target="_blank"
-              >How it Works</a
-            >
-            <a class="nav-link" href="pricing" target="_blank">Pricing</a>
+            <img id="header-img" src="https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg">
+          </div>
+          <div class="col">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#howitworks">How it Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
           </div>
         </div>
-
-        <!-- <button href="https://www.google.com/" target: "all_blank">Google</button> -->
       </nav>
     </header>
-    <div class="container">
-      <div class="clearfix"></div>
-      <br />
-      <h1>Hello World!</h1>
+    
+    <div class="container" style="text-align: center; padding-bottom: 400px;">
+      
+      <div style="padding: 50px;">
+        <h1>Maryjose & Dennis Project</h1>
+      </div>
+      
+      
       <div id="video">
         <iframe
           width="560"
@@ -51,16 +47,21 @@
           allowfullscreen
         ></iframe>
       </div>
+
       <form id="form" method="post">
         <div>
           <label for="email" placeholder="Email Here">Email:</label>
-          <input
+          <div style="margin: auto; max-width: 600px">
+            <input
             type="email"
             required
             name="email"
             id="email"
-            placeholder="Enter your email"
+            class="form-control"
+            placeholder="Please enter your email"
           />
+          </div>
+          
         </div>
         <div class="clearfix"></div>
         <br />
@@ -69,6 +70,37 @@
         </a>
         
       </form>
+
+      <div class="clearfix"></div><br>
+      <div id="features">
+        <h3>Features:</h3>
+        <ul class="list">
+          <li>Delicious</li>
+          <li>Fast</li>
+          <li>Hot</li>
+        </ul>
+      </div>
+
+      <div class="clearfix"></div><br>
+      <div id="howitworks">
+        <h3>How it works:</h3>
+        <ul class="list">
+          <li>Just call</li>
+          <li>Order</li>
+          <li>Pickup</li>
+        </ul>
+      </div>
+
+      <div class="clearfix"></div><br>
+      <div id="pricing">
+        <h3>Pricing:</h3>
+        <ul class="list">
+          <li>Cheap</li>
+          <li>Cheaper</li>
+          <li>Free</li>
+        </ul>
+      </div>
+
     </div>
   </body>
 </html>

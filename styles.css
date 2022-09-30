@@ -12,9 +12,11 @@
   align-items: center;
 }
 @media (min-width: 600px) {
-
-  #header{
+  #header {
     background: rgb(214, 72, 72);
+  }
+  .nav-link {
+    color: rgb(234, 209, 209) !important;
   }
 }
 
@@ -22,26 +24,26 @@
   width: 100px;
   height: 100px;
   position: relative;
-  background: url("https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg");
+  /* background: url("https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg"); */
   background-size: cover;
   border: 10px solid goldenrod;
   border-radius: 10px;
 }
 
-/* body {
-  background: green;
-} */
-@media (max-width: 1200px) {
-  body{
-    background: red;
-  }
-  
+.nav-link {
+  font-size: 22px !important;
+  margin: auto;
+  color: rgb(91, 19, 19);
+  width: 200px !important;
 }
 
-.nav-link {
-    font-size: 22px !important;
-    margin: auto;
-    color:rgb(234, 209, 209) !important;
-    width: 200px !important;
-    
+#form {
+  margin-top: 50px;
+  padding: 50px;
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+}
+
+.list {
+  list-style: none;
 }
