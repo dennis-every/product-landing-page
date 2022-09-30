@@ -51,13 +51,23 @@
           allowfullscreen
         ></iframe>
       </div>
-      <form id="form">
+      <form id="form" method="post">
         <div>
-          <label for="email" placeholder="Email Here" >Email:</label>
-          <input type="email" required name="email" id="email" placeholder="Enter your email">
+          <label for="email" placeholder="Email Here">Email:</label>
+          <input
+            type="email"
+            required
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
         </div>
         <div class="clearfix"></div>
         <br />
+        <a href="https://www.freecodecamp.com/email-submit">
+          <input type="submit" class="btn btn-danger" id="submit"></input>
+        </a>
+        
       </form>
     </div>
   </body>
